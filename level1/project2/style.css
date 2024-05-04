@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#intro {
+    height: 65%;
+    width: 100%;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+#intro h1 {
+    font-size: 140px;
+    letter-spacing: -3px;
+    line-height: 135px;
+}
+
+#place {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3, #place h4 {
+    font-size: 35px;
+    font-weight: 549;
+}
+
