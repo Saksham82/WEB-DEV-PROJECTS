@@ -66,5 +66,64 @@ html, body {
     border: none;
 }
 
+#main>h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 430px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
 
 
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+#i1 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 17px;
+}
+#i2 {
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+    font-size: 17px;
+}
+
+#i3 {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+}
