@@ -30,3 +30,41 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+
+#nav h3 {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav i {
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#btn-2 {
+    background-color: orangered;
+    border: none;
+}
+
+
+
